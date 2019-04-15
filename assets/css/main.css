@@ -1,0 +1,78 @@
+html,body{
+    height: 100%;
+}
+
+.main-div{
+    -moz-height: 100%;
+    -moz-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+.background{
+    margin: 0;
+    padding: 0;
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+    ),
+    /* your image */
+    url('../ddragon/img/splash/Leona_11.jpg');
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -ms-background-posistion: center;
+    -o-background-position: center;
+    background-position: center;
+}
+
+.search-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.form-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.profile-icon{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.pick-icon{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.item-icon{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.score-space{
+    margin: 12.5%;
+}
+
+.container-space{
+    margin-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
