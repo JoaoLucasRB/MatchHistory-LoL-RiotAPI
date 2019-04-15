@@ -13,9 +13,7 @@ Executar na pasta raiz:
   - adicionar static data a pasta assets (assets/ddragon)
   
  Adicionar no package.json:
-  - "scripts": {
-      "dev": "babel ./assets/js/summoner.js ./assets/js/jsonData.js ./assets/js/main.js -o ./assets/js/bundle.js -w"
-    }
+  - "scripts": { "dev": "babel ./assets/js/summoner.js ./assets/js/jsonData.js ./assets/js/main.js -o ./assets/js/bundle.js -w" }
     
  Criar arquivo .babelirc:
   - inserir linha: { "presets": [@babel/preset-env] }
