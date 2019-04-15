@@ -16,3 +16,6 @@ Executar na pasta raiz:
   - "scripts": {
       "dev": "babel ./assets/js/summoner.js ./assets/js/jsonData.js ./assets/js/main.js -o ./assets/js/bundle.js -w"
     }
+    
+ Criar arquivo .babelirc:
+  - inserir linha: { "presets": [@babel/preset-env] }
